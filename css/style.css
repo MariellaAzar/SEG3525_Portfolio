@@ -104,6 +104,48 @@ button.active{
   }
 }
 
+.hover-effect {
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  15% { transform: rotate(5deg); }
+  30% { transform: rotate(-5deg); }
+  45% { transform: rotate(4deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(2deg); }
+}
+
+.animated-title span {
+  transition: transform 0.2s ease;
+  display: inline-block;
+
+}
+#animatedTitle span:nth-child(odd) {
+  animation-delay: 0s;
+}
+#animatedTitle span:nth-child(even) {
+  animation-delay: 0.2s;
+}
+
+
+.animated-title:hover span {
+  animation: wiggle 0.8s ease infinite;
+}
+
+.animated-title:hover span:nth-child(odd) {
+  animation-delay: 0s;
+}
+.animated-title:hover span:nth-child(even) {
+  animation-delay: 0.1s;
+}
+
 .scroll-down {
   animation: bounce 2s infinite;
   font-size: 24px;
@@ -117,7 +159,3 @@ button.active{
   0%, 100% {transform: translate(-50%, 0);}
   50% {transform: translate(-50%, -10px);}
 }
-
-
-
-
