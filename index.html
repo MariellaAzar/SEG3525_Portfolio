@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mariella Azar</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Google Fonts for Arvo -->
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Mariella Azar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#about" data-en="About me" data-fr="À propos">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work" data-fr="Comment je travaille" data-en="How I work">How I work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects" data-fr="Projets" data-en="Projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-en="Let's connect!" data-fr="Connectons!">Contact</a></li>
+          <li class="nav-item ms-3">
+            <div class="lang-toggle btn-group" role="group" aria-label="Language toggle">
+              <button id="frBtn" type="button" class="btn btn-sm" style="color:#000">FR</button>
+              <button id="enBtn" type="button" class="btn btn-sm" style="color:#000">EN</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Principale -->
+  <div class="landing-container">
+    <div id="a-world" class="text-uppercase fw-light small" data-en="A world" data-fr="Un monde">Un monde...</div>
+    <h1 class="animated-title text-uppercase" id="animatedTitle" data-en="WHERE CREATIVITY RULES" data-fr="OÙ RÈGNE LA CRÉATIVITÉ">OÙ RÈGNE LA CRÉATIVITÉ</h1>
+  </div>
+  <div class="scroll-down" data-fr="↓ Faites défiler vers le bas pour en apprendre plus sur moi!" data-en="↓ Scroll to learn more about me!">↓ Scroll to learn more about me!</div>
+
+
+  <!-- About me Section -->
+  <section id="about" class="container my-5 pt-5">
+    <h2 class="text-center mb-4" data-fr="À propos de moi" data-en="About me">À propos de moi</h2>
+    <p class="text-center fs-5 px-3" 
+    data-en="I’m a curious and creative mind, blending my passion for art, design, and technology as a software engineering student. I thrive on learning, solving meaningful challenges, and crafting solutions that make a positive impact." 
+    data-fr="Je suis un esprit curieux et créatif, alliant ma passion pour l’art, le design et la technologie en tant qu'étudiante en génie logiciel. J'aime apprendre, relever des défis intéressants et concevoir des solutions qui ont un impact positif. Que ce soit par le code, le design ou la collaboration, je suis toujours motivée à contribuer et à évoluer.">
+      Je suis un esprit curieux et créatif, alliant ma passion pour l’art, le design et la technologie en tant qu'étudiante en génie logiciel. J'aime apprendre, relever des défis intéressants et concevoir des solutions qui ont un impact positif. Que ce soit par le code, le design ou la collaboration, je suis toujours motivée à contribuer et à évoluer.
+    </p>
+  </section>
+  <!-- How I work Section -->
+    <section id="work" class="container my-5 pt-5">
+    <h2 class="text-center mb-4" data-fr="Comment je travaille ?" data-en="How I work?">Comment je travaille ?</h2>
+    <p class="lead text-center" 
+       data-en="  For me, creating interfaces that are both unique and accessible is essential.  
+  I believe user experience should be simple, yet innovative.  
+  This summer, I’m taking the course SEG3525: *Analysis and Design of User Interfaces*,  
+  where I’m learning key concepts to improve UX.  
+  Some of these concepts are already applied on this site—such as visual balance, scale, color contrast, and more.  
+  Can you spot them? :p" 
+       data-fr="    Pour moi, concevoir des interfaces à la fois uniques et accessibles est essentiel.  
+    Je crois que l’expérience utilisateur doit être simple, mais innovante.  
+    Cet été, je suis le cours SEG3525 : Analyse et conception d’interfaces utilisateur,  
+    où j’apprends des notions clés pour améliorer l’UX.  
+    Certaines sont déjà mises en pratique sur ce site, comme l’équilibre visuel, le 'scale'/différentes tailles, le contraste des couleurs, etc.  
+    Saurez-vous les repérer ? :p">
+      Pour moi, concevoir des interfaces uniques mais accessibles est essentiel. 
+      Je crois que l’expérience utilisateur doit être simple, mais innovante.  
+      Cet été, je suis le cours SEG3525 : 
+      Analyse et conception d’interfaces utilisateur, 
+      où j’apprendrai des notions clés pour améliorer l’UX.
+      Quelques notions déjà mises en pratiques dans ce site sont le concept de balance, de "scale", de contraste des couleurs, etc. Saurez-vous les identifier? :p
+    </p>
+  </section>
+
+  <!-- Section pour les Projets/Design a venir -->
+  <section id="projects" class="container my-5">
+    <h2 class="text-center mb-4" 
+    data-fr="Projets" 
+    data-en="Projects">Projets</h2>
+    <div class="row justify-content-center">
+
+      <!-- Design 1 -->
+      <div class="col-md-5 col-lg-3 mb-4">
+        <a href="design1.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/images/gadgets.jpg" class="card-img-top" alt="Design 1" />
+            <div class="card-body">
+              <h5 class="card-title">Design 1</h5>
+              <p class="card-text" data-en="A service site (e.g. dentist, bicycle repairer)" data-fr="Un site de services (ex. : dentiste, réparateur de vélos)">Un site de services (ex. : dentiste, réparateur de vélos)</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Design 2 -->
+      <div class="col-md-5 col-lg-3 mb-4">
+        <a href="design2.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/images/happybob.jpg" class="card-img-top" alt="Design 2" />
+            <div class="card-body">
+              <h5 class="card-title">Design 2</h5>
+              <p class="card-text" data-en="An e-commerce website" data-fr="Un site e-commerce">Un site e-commerce</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Design 3 -->
+      <div class="col-md-5 col-lg-3 mb-4">
+        <a href="design3.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/images/finance.jpg" class="card-img-top" alt="Design 3" />
+            <div class="card-body">
+              <h5 class="card-title">Design 3</h5>
+              <p class="card-text" data-en="An e-commerce website" data-fr="Un site e-commerce">Un site e-commerce</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <!-- Design 4 -->
+      <div class="col-md-5 col-lg-3 mb-4">
+        <a href="design4.html" class="text-decoration-none text-dark">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/images/mars.png" class="card-img-top" alt="Design 4" />
+            <div class="card-body">
+              <h5 class="card-title">Design 4</h5>
+              <p class="card-text"data-en="An analysis and visualization site (BI/sport/finance)" data-fr="Un site d'analyse et de visualisation (BI/sport/finances)">Un site d'analyse et de visualisation (BI/sport/finances)</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact</h2>
+    <p class="text-center" data-en="Feel free to contact me!" data-fr="N’hésitez pas à me contacter!">
+      N’hésitez pas à me contacter! Courriel: <a href="mailto:mazar080@uottawa.ca">mazar080@uottawa.ca</a>
+    </p>
+    <div class="text-center mt-3">
+      <a href="https://www.linkedin.com/in/mariella-azar/" target="_blank" class="mx-2" aria-label="LinkedIn">Linkedin</a>
+    </div>
+  </section>
+  <!-- Scripts -->
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <!-- Custom JS -->
+  <script src="js/animation.js"></script>
+  <script src="js/languageToggle.js"></script>
+</body>
+</html>
+
