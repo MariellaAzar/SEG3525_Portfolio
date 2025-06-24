@@ -33,23 +33,22 @@ It highlights my personality, skills, and creative work in a playful and profess
 ## 🗂️ File Structure
 
 SEG3525_PORTFOLIO/
-│
-├── index.html # Main page (About, Projects, Contact)
-├── design1.html # Project: Creative Studio
-├── design2.html # Project: Word Morph Game
-├── design3.html # Project: E-Commerce Temporary Page for the Upcoming Project
-├── design4.html # Project: Data Visualization Project Temporary Page for the Upcoming Project
+├── index.html             # Main page (About, Projects, Contact)
+├── design1.html           # Project: Creative Studio
+├── design2.html           # Project: Word Morph Game
+├── design3.html           # Project: E-Commerce (Temporary placeholder for upcoming project)
+├── design4.html           # Project: Data Visualization (Temporary placeholder for upcoming project)
 │
 ├── assets/
-│ └── images/ # Project thumbnails
+│   └── images/            # Project thumbnails
 │
 ├── CSS/
-│ └── style.css # Custom styles (colors, animations, layout)
+│   └── style.css          # Custom styles (colors, layout, fonts, animations)
 │
-├── JS/
-│ ├── animation.js # Scroll-reveal functionality
-│ ├── languageToggle.js # French / English toggle logic
-│ └── spanAuto.js # Wraps each letter in spans for the hover animations
+└── JS/
+    ├── animation.js       # Scroll-reveal animation on scroll
+    ├── languageToggle.js  # Handles bilingual FR/EN toggle
+    └── spanAuto.js        # Wraps letters of the animated title in spans
 
 
 ---
