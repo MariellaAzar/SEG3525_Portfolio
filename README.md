@@ -21,7 +21,7 @@ It highlights my personality, skills, and creative work in a playful and profess
 - **🖼️ Projects Gallery:**  
   Clickable cards linking to real creative design pages:
   - 🎨 *Creative Studio (DONE)*
-  - 🧠 *Word Morph Game (COMINGDONE)*
+  - 🧠 *Word Morph Game (DONE)*
   - 🛒 *E-Commerce Page (COMING SOON)*
   - 📊 *Analytics Dashboard (COMING SOON)*
 
